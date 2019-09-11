@@ -1,0 +1,628 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="2.18.28">
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
+    <customproperties/>
+    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Checked" id="s2_cloud20190402153547436" source="/home/ris022/cc/scrap/s2_cloud.tif" name="s2_cloud">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Unchecked" id="s2_cloud_scores20190402153734636" source="/home/ris022/cc/scrap/s2_cloud_scores.tif" name="s2_cloud_scores">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Checked" id="ps_cloud20190402152956945" source="/home/ris022/cc/scrap/ps_cloud.tif" name="ps_cloud">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Unchecked" id="s2_shadow220190402153926806" source="/home/ris022/cc/scrap/s2_shadow2.tif" name="s2_shadow2">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Unchecked" id="ps_shadow220190402153926789" source="/home/ris022/cc/scrap/ps_shadow2.tif" name="ps_shadow2">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Unchecked" id="ps_cloud_scores20190402152957213" source="/home/ris022/cc/scrap/ps_cloud_scores.tif" name="ps_cloud_scores">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Checked" id="496378_5530810_2017_05_09_1015_BGRN_Analytic_metadata_TOA_clipped20190402143117234" source="/home/ris022/cc/data/raw/scenes/ps/496378_5530810_2017-05-09_1015_BGRN_Analytic_metadata_TOA.tif" name="496378_5530810_2017-05-09_1015_BGRN_Analytic_metadata_TOA_clipped">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Checked" id="S2A_MSIL1C_20161208T003702_N0204_R059_T55KCA_20161208T003914_TOA20190402153104522" source="/home/ris022/cc/data/raw/scenes/s2/S2A_MSIL1C_20161208T003702_N0204_R059_T55KCA_20161208T003914_TOA.tif" name="S2A_MSIL1C_20161208T003702_N0204_R059_T55KCA_20161208T003914_TOA">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <relations/>
+  <mapcanvas>
+    <units>meters</units>
+    <extent>
+      <xmin>279396.99152542377123609</xmin>
+      <ymin>8011696.94385593570768833</ymin>
+      <xmax>337041.99152542377123609</xmax>
+      <ymax>8069341.94385593570768833</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <projections>0</projections>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=utm +zone=55 +south +datum=WGS84 +units=m +no_defs</proj4>
+        <srsid>3205</srsid>
+        <srid>32755</srid>
+        <authid>EPSG:32755</authid>
+        <description>WGS 84 / UTM zone 55S</description>
+        <projectionacronym>utm</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <layer_coordinate_transform_info/>
+  </mapcanvas>
+  <layer-tree-canvas>
+    <custom-order enabled="0">
+      <item>496378_5530810_2017_05_09_1015_BGRN_Analytic_metadata_TOA_clipped20190402143117234</item>
+      <item>ps_cloud20190402152956945</item>
+      <item>ps_cloud_scores20190402152957213</item>
+      <item>S2A_MSIL1C_20161208T003702_N0204_R059_T55KCA_20161208T003914_TOA20190402153104522</item>
+      <item>s2_cloud20190402153547436</item>
+      <item>s2_cloud_scores20190402153734636</item>
+      <item>ps_shadow220190402153926789</item>
+      <item>s2_shadow220190402153926806</item>
+    </custom-order>
+  </layer-tree-canvas>
+  <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="s2_cloud" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="s2_cloud20190402153547436" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="s2_cloud_scores" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="s2_cloud_scores20190402153734636" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="ps_cloud" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="ps_cloud20190402152956945" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="s2_shadow2" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="s2_shadow220190402153926806" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="ps_shadow2" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="ps_shadow220190402153926789" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="ps_cloud_scores" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="ps_cloud_scores20190402152957213" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="496378_5530810_2017-05-09_1015_BGRN_Analytic_metadata_TOA_clipped" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="496378_5530810_2017_05_09_1015_BGRN_Analytic_metadata_TOA_clipped20190402143117234" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="S2A_MSIL1C_20161208T003702_N0204_R059_T55KCA_20161208T003914_TOA" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="S2A_MSIL1C_20161208T003702_N0204_R059_T55KCA_20161208T003914_TOA20190402153104522" visible="1"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <projectlayers>
+    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>379315.625</xmin>
+        <ymin>8006425</ymin>
+        <xmax>391162.5</xmax>
+        <ymax>8018640.625</ymax>
+      </extent>
+      <id>496378_5530810_2017_05_09_1015_BGRN_Analytic_metadata_TOA_clipped20190402143117234</id>
+      <datasource>../data/raw/scenes/ps/496378_5530810_2017-05-09_1015_BGRN_Analytic_metadata_TOA.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>496378_5530810_2017-05-09_1015_BGRN_Analytic_metadata_TOA_clipped</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=55 +south +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3205</srsid>
+          <srid>32755</srid>
+          <authid>EPSG:32755</authid>
+          <description>WGS 84 / UTM zone 55S</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+        <noDataList bandNo="2" useSrcNoData="1"/>
+        <noDataList bandNo="3" useSrcNoData="1"/>
+        <noDataList bandNo="4" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="0" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+          <rasterTransparency/>
+          <redContrastEnhancement>
+            <minValue>124.656</minValue>
+            <maxValue>2381.15</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </redContrastEnhancement>
+          <greenContrastEnhancement>
+            <minValue>37.2293</minValue>
+            <maxValue>2285.13</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </greenContrastEnhancement>
+          <blueContrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>2334.04</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </blueContrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>300000</xmin>
+        <ymin>7990240</ymin>
+        <xmax>409800</xmax>
+        <ymax>8100040</ymax>
+      </extent>
+      <id>S2A_MSIL1C_20161208T003702_N0204_R059_T55KCA_20161208T003914_TOA20190402153104522</id>
+      <datasource>../data/raw/scenes/s2/S2A_MSIL1C_20161208T003702_N0204_R059_T55KCA_20161208T003914_TOA.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>S2A_MSIL1C_20161208T003702_N0204_R059_T55KCA_20161208T003914_TOA</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=55 +south +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3205</srsid>
+          <srid>32755</srid>
+          <authid>EPSG:32755</authid>
+          <description>WGS 84 / UTM zone 55S</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+        <noDataList bandNo="2" useSrcNoData="1"/>
+        <noDataList bandNo="3" useSrcNoData="1"/>
+        <noDataList bandNo="4" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="0" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+          <rasterTransparency/>
+          <redContrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>3594.14</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </redContrastEnhancement>
+          <greenContrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>3510.49</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </greenContrastEnhancement>
+          <blueContrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>3749.71</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </blueContrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>379315.625</xmin>
+        <ymin>8006425</ymin>
+        <xmax>391162.5</xmax>
+        <ymax>8018640.625</ymax>
+      </extent>
+      <id>ps_cloud20190402152956945</id>
+      <datasource>../scrap/ps_cloud.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ps_cloud</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=55 +south +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3205</srsid>
+          <srid>32755</srid>
+          <authid>EPSG:32755</authid>
+          <description>WGS 84 / UTM zone 55S</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="0.596078" alphaBand="-1" classificationMax="3" classificationMinMaxOrigin="CumulativeCutFullExtentEstimated" band="1" classificationMin="0" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="EXACT" clip="0">
+              <item alpha="0" value="0" label="0" color="#d7191c"/>
+              <item alpha="255" value="1" label="1" color="#fd61f3"/>
+              <item alpha="255" value="2" label="2" color="#ffa400"/>
+              <item alpha="255" value="3" label="3" color="#ff0116"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>379315.625</xmin>
+        <ymin>8006425</ymin>
+        <xmax>391162.5</xmax>
+        <ymax>8018640.625</ymax>
+      </extent>
+      <id>ps_cloud_scores20190402152957213</id>
+      <datasource>../scrap/ps_cloud_scores.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ps_cloud_scores</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=55 +south +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3205</srsid>
+          <srid>32755</srid>
+          <authid>EPSG:32755</authid>
+          <description>WGS 84 / UTM zone 55S</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+        <noDataList bandNo="2" useSrcNoData="1"/>
+        <noDataList bandNo="3" useSrcNoData="1"/>
+        <noDataList bandNo="4" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" blueBand="4" greenBand="3" type="multibandcolor" redBand="2">
+          <rasterTransparency/>
+          <redContrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </redContrastEnhancement>
+          <greenContrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </greenContrastEnhancement>
+          <blueContrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </blueContrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>379315.625</xmin>
+        <ymin>8006425</ymin>
+        <xmax>391162.5</xmax>
+        <ymax>8018640.625</ymax>
+      </extent>
+      <id>ps_shadow220190402153926789</id>
+      <datasource>../scrap/ps_shadow2.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ps_shadow2</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=55 +south +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3205</srsid>
+          <srid>32755</srid>
+          <authid>EPSG:32755</authid>
+          <description>WGS 84 / UTM zone 55S</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="0" classificationMax="0" classificationMinMaxOrigin="CumulativeCutFullExtentEstimated" band="1" classificationMin="nan" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="DISCRETE" clip="0">
+              <item alpha="0" value="0" label="no shadow" color="#ff00ff"/>
+              <item alpha="255" value="1" label="partly shaded" color="#ff0022"/>
+              <item alpha="255" value="2" label="shaded" color="#ff8d01"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>300000</xmin>
+        <ymin>7990240</ymin>
+        <xmax>409800</xmax>
+        <ymax>8100040</ymax>
+      </extent>
+      <id>s2_cloud20190402153547436</id>
+      <datasource>../scrap/s2_cloud.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>s2_cloud</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=55 +south +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3205</srsid>
+          <srid>32755</srid>
+          <authid>EPSG:32755</authid>
+          <description>WGS 84 / UTM zone 55S</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="0.596078" alphaBand="-1" classificationMax="3" classificationMinMaxOrigin="CumulativeCutFullExtentEstimated" band="1" classificationMin="0" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="EXACT" clip="0">
+              <item alpha="0" value="0" label="0" color="#d7191c"/>
+              <item alpha="255" value="1" label="1" color="#fd61f3"/>
+              <item alpha="255" value="2" label="2" color="#ffa400"/>
+              <item alpha="255" value="3" label="3" color="#ff0116"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>300000</xmin>
+        <ymin>7990240</ymin>
+        <xmax>409800</xmax>
+        <ymax>8100040</ymax>
+      </extent>
+      <id>s2_cloud_scores20190402153734636</id>
+      <datasource>../scrap/s2_cloud_scores.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>s2_cloud_scores</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=55 +south +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3205</srsid>
+          <srid>32755</srid>
+          <authid>EPSG:32755</authid>
+          <description>WGS 84 / UTM zone 55S</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+        <noDataList bandNo="2" useSrcNoData="1"/>
+        <noDataList bandNo="3" useSrcNoData="1"/>
+        <noDataList bandNo="4" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" blueBand="4" greenBand="3" type="multibandcolor" redBand="2">
+          <rasterTransparency/>
+          <redContrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </redContrastEnhancement>
+          <greenContrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </greenContrastEnhancement>
+          <blueContrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>1</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </blueContrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>300000</xmin>
+        <ymin>7990240</ymin>
+        <xmax>409800</xmax>
+        <ymax>8100040</ymax>
+      </extent>
+      <id>s2_shadow220190402153926806</id>
+      <datasource>../scrap/s2_shadow2.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>s2_shadow2</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=55 +south +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3205</srsid>
+          <srid>32755</srid>
+          <authid>EPSG:32755</authid>
+          <description>WGS 84 / UTM zone 55S</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" classificationMax="0" classificationMinMaxOrigin="CumulativeCutFullExtentEstimated" band="1" classificationMin="nan" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="DISCRETE" clip="0">
+              <item alpha="0" value="0" label="no shadow" color="#ff00ff"/>
+              <item alpha="255" value="1" label="partly shaded" color="#ff0022"/>
+              <item alpha="255" value="2" label="shaded" color="#ff8d01"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+  </projectlayers>
+  <properties>
+    <Measurement>
+      <DistanceUnits type="QString"></DistanceUnits>
+      <AreaUnits type="QString"></AreaUnits>
+    </Measurement>
+    <SpatialRefSys>
+      <ProjectCRSProj4String type="QString">+proj=longlat +datum=WGS84 +no_defs</ProjectCRSProj4String>
+      <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
+      <ProjectCRSID type="int">3452</ProjectCRSID>
+      <ProjectionsEnabled type="int">0</ProjectionsEnabled>
+    </SpatialRefSys>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <Gui>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+    </Gui>
+    <Digitizing>
+      <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
+      <LayerSnappingList type="QStringList"/>
+      <LayerSnappingEnabledList type="QStringList"/>
+      <SnappingMode type="QString">current_layer</SnappingMode>
+      <AvoidIntersectionsList type="QStringList"/>
+      <LayerSnappingToleranceUnitList type="QStringList"/>
+      <LayerSnapToList type="QStringList"/>
+      <DefaultSnapType type="QString">off</DefaultSnapType>
+      <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
+      <LayerSnappingToleranceList type="QStringList"/>
+    </Digitizing>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+    </PositionPrecision>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+  </properties>
+  <visibility-presets/>
+</qgis>

@@ -1,0 +1,7 @@
+*.hdf5
+*.tif
+*.TIF
+*.tif.*
+*.TIF.*
+.idea/
+__pycache__
