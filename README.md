@@ -4,7 +4,7 @@ Deep learning for multi-modal classification of cloud, shadow and land cover sce
 high-resolution satellite imagery implemented using [Keras](https://keras.io/) as described in:
 [Shendryk, Y., Rist, Y., Ticehurst, C. and Thorburn, P. (2019). "Deep learning for multi-modal classification 
 of cloud, shadow and land cover scenes in PlanetScope and Sentinel-2 imagery." 
-ISPRS Journal of Photogrammetry and Remote Sensing 157: xxx-xxx.](https://www.journals.elsevier.com/isprs-journal-of-photogrammetry-and-remote-sensing/)
+ISPRS Journal of Photogrammetry and Remote Sensing 157: 124-136.](https://www.sciencedirect.com/science/article/pii/S0924271619302023)
 
 ![Graphical_Abstract](Graphical_Abstract.png)
 
@@ -14,6 +14,8 @@ This work exists thanks to:
 1) [Yannik Rist](https://smp.uq.edu.au/profile/7543/yannik-rist) 
 2) [Catherine Ticehurst](https://www.researchgate.net/profile/Catherine_Ticehurst)
 3) [Peter Thorburn](https://scholar.google.nl/citations?user=URFZ6xEAAAAJ&hl=en)
+
+and [CSIRO's Digiscape Future Science Platform](https://research.csiro.au/digiscape/)
 
 
 ## Requirements
@@ -71,5 +73,5 @@ This is a collection of functions for turning geospatial raster data into HDF5 d
 learning tasks.  It is a one-file module.  See the source code for docs.
 
 #### `data/`
-Here you can find T-PS and T-S2 datasets.  A-PS data could be found at
+Here you can find T-PS and T-S2 datasets, which is also available at [Mendeley Data](https://data.mendeley.com/datasets/6gdybpjnwh/1).  A-PS data could be found at
 [Planet: Understanding the Amazon from Space](https://www.kaggle.com/c/planet-understanding-the-amazon-from-space/data)
